@@ -13,6 +13,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Cards {
+  id          String    @id @default(cuid())
+  title       String?
+  description String?
+  theme       String?
+  image       String?
+
+}
+
 enum UserRole {
   ADMIN
   USER

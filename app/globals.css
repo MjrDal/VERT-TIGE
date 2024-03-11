@@ -8,6 +8,14 @@ body,
   height: 100%;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
